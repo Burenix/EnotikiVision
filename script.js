@@ -31,7 +31,7 @@ let enotsArray = [];
             const data = {
                 "model": model,
                 "sampler": sampler,
-                "prompt": `Draw a beautiful cute raccoon by <br> name ${enot.name} and he is this <br>weight ${enot.weight} kilogram, <br> and so old ${enot.year}.`,
+                "prompt": `Animal raccoon`,
                 "image_count": image_count,
                 "token": api_key,
                 "cfg_scale": cfg_scale,
