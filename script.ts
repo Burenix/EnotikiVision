@@ -30,7 +30,7 @@ function generateAndSaveImages(enotIndex: number) {
 
     const enot: Enot = enotsArray[enotIndex];
     const model: string = "absolutereality_v1.8.1";
-    const sampler: string = "LMS";
+    const sampler: string = "Euler";
     const image_count: number = 1;
     const cfg_scale: number = 8;
     const steps: number = 30;
