@@ -22,7 +22,7 @@ let enotsArray = [];
 
             const enot = enotsArray[enotIndex];
             const model = "absolutereality_v1.8.1";
-            const sampler = "LMS";
+            const sampler = "Euler";
             const image_count = 1;
             const cfg_scale = 8;
             const steps = 30;
